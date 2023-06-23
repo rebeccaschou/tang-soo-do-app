@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+target 'World Tang Soo Do Association' do
+  use_frameworks!
+
+  # Pods for World Tang Soo Do Association
+    
+  pod 'MultiPickerView', '~> 0.0'
+
+end

@@ -1,0 +1,1000 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B03CDB428329DA100017878 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03CDB328329DA100017878 /* SignInViewController.swift */; };
+		0B03CDB628329DAA00017878 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B03CDB528329DAA00017878 /* SignInViewController.storyboard */; };
+		0B03CDB828329DC000017878 /* CreateAccountViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B03CDB728329DC000017878 /* CreateAccountViewController.storyboard */; };
+		0B03CDBA28329DC900017878 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03CDB928329DC900017878 /* CreateAccountViewController.swift */; };
+		0B03CDBC2832A85400017878 /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03CDBB2832A85400017878 /* UITextFieldExtensions.swift */; };
+		0B03CDBE2832A98800017878 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B03CDBD2832A98800017878 /* UIViewControllerExtensions.swift */; };
+		0B0729AF28047FAC00181203 /* CategoryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B0729AE28047FAC00181203 /* CategoryViewController.storyboard */; };
+		0B0729B12804800D00181203 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0729B02804800D00181203 /* CategoryViewController.swift */; };
+		0B0E6DFB2800AE54004595CE /* SyllabusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E6DFA2800AE54004595CE /* SyllabusTableViewCell.swift */; };
+		0B0E6DFE2800B077004595CE /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0E6DFD2800B077004595CE /* UIViewExtensions.swift */; };
+		0B2B829427FC901800A7CFF6 /* SyllabusViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2B829327FC901800A7CFF6 /* SyllabusViewController.storyboard */; };
+		0B2B829627FC904000A7CFF6 /* SyllabusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B829527FC904000A7CFF6 /* SyllabusViewController.swift */; };
+		0B2B829827FC98D400A7CFF6 /* SyllabusFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B829727FC98D400A7CFF6 /* SyllabusFunctions.swift */; };
+		0B2B829A27FC999400A7CFF6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2B829927FC999400A7CFF6 /* Data.swift */; };
+		0B2E13B6282D71DB00D9036F /* HelpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E13B5282D71DB00D9036F /* HelpScreenViewController.swift */; };
+		0B2E13B8282D71E500D9036F /* HelpScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2E13B7282D71E500D9036F /* HelpScreenViewController.storyboard */; };
+		0B2E13BA282D76C300D9036F /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E13B9282D76C300D9036F /* TabBarViewController.swift */; };
+		0B323B332801D41A00EC200A /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B323B322801D41A00EC200A /* UIButtonExtensions.swift */; };
+		0B323B352801D44F00EC200A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B323B342801D44F00EC200A /* Theme.swift */; };
+		0B323B372801D47B00EC200A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B323B362801D47B00EC200A /* Colors.xcassets */; };
+		0B4CFE3C2816E98500E052F0 /* EditNameViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4CFE3B2816E98500E052F0 /* EditNameViewController.storyboard */; };
+		0B4CFE3E2816E99800E052F0 /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4CFE3D2816E99800E052F0 /* EditNameViewController.swift */; };
+		0B5AEEB927FB470400F7408E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEB827FB470400F7408E /* AppDelegate.swift */; };
+		0B5AEEBB27FB470400F7408E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEBA27FB470400F7408E /* SceneDelegate.swift */; };
+		0B5AEEC327FB470400F7408E /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEC127FB470400F7408E /* DataModel.xcdatamodeld */; };
+		0B5AEEC527FB470600F7408E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AEEC427FB470600F7408E /* Assets.xcassets */; };
+		0B5AEEC827FB470600F7408E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5AEEC627FB470600F7408E /* LaunchScreen.storyboard */; };
+		0B5AEED327FB470600F7408E /* World_Tang_Soo_Do_AssociationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEED227FB470600F7408E /* World_Tang_Soo_Do_AssociationTests.swift */; };
+		0B5AEEDD27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEDC27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITests.swift */; };
+		0B5AEEDF27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEDE27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITestsLaunchTests.swift */; };
+		0B5AEEEC27FB47B200F7408E /* SyllabusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEEB27FB47B200F7408E /* SyllabusModel.swift */; };
+		0B5AEEEF27FB49E800F7408E /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEEE27FB49E800F7408E /* CategoryModel.swift */; };
+		0B5AEEF127FB4A5500F7408E /* TechniqueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AEEF027FB4A5500F7408E /* TechniqueModel.swift */; };
+		0B78DC412805D52900542A56 /* AddEntryViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B78DC402805D52900542A56 /* AddEntryViewController.storyboard */; };
+		0B78DC432805D67D00542A56 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78DC422805D67D00542A56 /* AddEntryViewController.swift */; };
+		0BB1CB5A2805CB9F004F3F92 /* JournalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB1CB592805CB9F004F3F92 /* JournalViewController.storyboard */; };
+		0BB1CB5C2805CBCD004F3F92 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1CB5B2805CBCD004F3F92 /* JournalViewController.swift */; };
+		0BB1CB5E2805CC91004F3F92 /* JournalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB1CB5D2805CC91004F3F92 /* JournalTableViewCell.swift */; };
+		0BC2F74D27FF086D00A5B204 /* CategoryFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC2F74C27FF086D00A5B204 /* CategoryFunctions.swift */; };
+		0BE25A4F28149E3800E0906A /* EntryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE25A4E28149E3800E0906A /* EntryExtensions.swift */; };
+		0BEF756E2814B0D2008CDEEC /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEF756D2814B0D2008CDEEC /* DateExtensions.swift */; };
+		0BF50350281616A70007891C /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5034F281616A70007891C /* ProfileViewController.storyboard */; };
+		0BF50352281616B10007891C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF50351281616B10007891C /* ProfileViewController.swift */; };
+		0BF5035528161C260007891C /* ProfileNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5035328161C260007891C /* ProfileNameTableViewCell.swift */; };
+		0BF5035628161C260007891C /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5035428161C260007891C /* ProfileTableViewCell.xib */; };
+		0BF5035B28161FB70007891C /* ProfileGenericTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5035928161FB70007891C /* ProfileGenericTableViewCell.swift */; };
+		0BF5035C28161FB70007891C /* ProfileGenericTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5035A28161FB70007891C /* ProfileGenericTableViewCell.xib */; };
+		0BF5035E28163B480007891C /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5035D28163B480007891C /* StringExtensions.swift */; };
+		0BFA1932282FCD6300E96042 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA1931282FCD6300E96042 /* NotesViewController.swift */; };
+		0BFA1934282FCD6C00E96042 /* NotesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFA1933282FCD6C00E96042 /* NotesViewController.storyboard */; };
+		0BFA19382830082300E96042 /* ProfileLogOutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA19362830082300E96042 /* ProfileLogOutTableViewCell.swift */; };
+		0BFA19392830082300E96042 /* ProfileLogOutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BFA19372830082300E96042 /* ProfileLogOutTableViewCell.xib */; };
+		0BFA193C283021A800E96042 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA193B283021A800E96042 /* LoginViewController.swift */; };
+		0BFA19452830310100E96042 /* UserDefaultsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFA19442830310100E96042 /* UserDefaultsExtensions.swift */; };
+		0BFC22DE2818240A0078124D /* EditPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC22DD2818240A0078124D /* EditPasswordViewController.swift */; };
+		0BFC22E0281824140078124D /* EditPasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC22DF281824140078124D /* EditPasswordViewController.storyboard */; };
+		0BFC22E328183FB90078124D /* EditRankViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFC22E228183FB90078124D /* EditRankViewController.storyboard */; };
+		0BFC22E5281840110078124D /* EditRankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFC22E4281840110078124D /* EditRankViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B5AEECF27FB470600F7408E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5AEEAD27FB470400F7408E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5AEEB427FB470400F7408E;
+			remoteInfo = "World Tang Soo Do Association";
+		};
+		0B5AEED927FB470600F7408E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B5AEEAD27FB470400F7408E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5AEEB427FB470400F7408E;
+			remoteInfo = "World Tang Soo Do Association";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B03CDB328329DA100017878 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0B03CDB528329DAA00017878 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
+		0B03CDB728329DC000017878 /* CreateAccountViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateAccountViewController.storyboard; sourceTree = "<group>"; };
+		0B03CDB928329DC900017878 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0B03CDBB2832A85400017878 /* UITextFieldExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtensions.swift; sourceTree = "<group>"; };
+		0B03CDBD2832A98800017878 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		0B0729AE28047FAC00181203 /* CategoryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CategoryViewController.storyboard; sourceTree = "<group>"; };
+		0B0729B02804800D00181203 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		0B0E6DFA2800AE54004595CE /* SyllabusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusTableViewCell.swift; sourceTree = "<group>"; };
+		0B0E6DFD2800B077004595CE /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		0B2B829327FC901800A7CFF6 /* SyllabusViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SyllabusViewController.storyboard; sourceTree = "<group>"; };
+		0B2B829527FC904000A7CFF6 /* SyllabusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusViewController.swift; sourceTree = "<group>"; };
+		0B2B829727FC98D400A7CFF6 /* SyllabusFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusFunctions.swift; sourceTree = "<group>"; };
+		0B2B829927FC999400A7CFF6 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		0B2E13B5282D71DB00D9036F /* HelpScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpScreenViewController.swift; sourceTree = "<group>"; };
+		0B2E13B7282D71E500D9036F /* HelpScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HelpScreenViewController.storyboard; sourceTree = "<group>"; };
+		0B2E13B9282D76C300D9036F /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0B323B322801D41A00EC200A /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		0B323B342801D44F00EC200A /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0B323B362801D47B00EC200A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		0B4CFE3B2816E98500E052F0 /* EditNameViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditNameViewController.storyboard; sourceTree = "<group>"; };
+		0B4CFE3D2816E99800E052F0 /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		0B5AEEB527FB470400F7408E /* World Tang Soo Do Association.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Tang Soo Do Association.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5AEEB827FB470400F7408E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B5AEEBA27FB470400F7408E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0B5AEEC227FB470400F7408E /* World_Tang_Soo_Do_Association.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = World_Tang_Soo_Do_Association.xcdatamodel; sourceTree = "<group>"; };
+		0B5AEEC427FB470600F7408E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B5AEEC727FB470600F7408E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B5AEEC927FB470600F7408E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5AEECE27FB470600F7408E /* World Tang Soo Do AssociationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World Tang Soo Do AssociationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5AEED227FB470600F7408E /* World_Tang_Soo_Do_AssociationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World_Tang_Soo_Do_AssociationTests.swift; sourceTree = "<group>"; };
+		0B5AEED827FB470600F7408E /* World Tang Soo Do AssociationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "World Tang Soo Do AssociationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5AEEDC27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World_Tang_Soo_Do_AssociationUITests.swift; sourceTree = "<group>"; };
+		0B5AEEDE27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = World_Tang_Soo_Do_AssociationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B5AEEEB27FB47B200F7408E /* SyllabusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusModel.swift; sourceTree = "<group>"; };
+		0B5AEEEE27FB49E800F7408E /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		0B5AEEF027FB4A5500F7408E /* TechniqueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueModel.swift; sourceTree = "<group>"; };
+		0B78DC402805D52900542A56 /* AddEntryViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddEntryViewController.storyboard; sourceTree = "<group>"; };
+		0B78DC422805D67D00542A56 /* AddEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		0BB1CB592805CB9F004F3F92 /* JournalViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JournalViewController.storyboard; sourceTree = "<group>"; };
+		0BB1CB5B2805CBCD004F3F92 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		0BB1CB5D2805CC91004F3F92 /* JournalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalTableViewCell.swift; sourceTree = "<group>"; };
+		0BC2F74C27FF086D00A5B204 /* CategoryFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFunctions.swift; sourceTree = "<group>"; };
+		0BE25A4E28149E3800E0906A /* EntryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryExtensions.swift; sourceTree = "<group>"; };
+		0BEF756D2814B0D2008CDEEC /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		0BF5034F281616A70007891C /* ProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		0BF50351281616B10007891C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0BF5035328161C260007891C /* ProfileNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileNameTableViewCell.swift; sourceTree = "<group>"; };
+		0BF5035428161C260007891C /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		0BF5035928161FB70007891C /* ProfileGenericTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileGenericTableViewCell.swift; sourceTree = "<group>"; };
+		0BF5035A28161FB70007891C /* ProfileGenericTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileGenericTableViewCell.xib; sourceTree = "<group>"; };
+		0BF5035D28163B480007891C /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		0BFA1931282FCD6300E96042 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		0BFA1933282FCD6C00E96042 /* NotesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NotesViewController.storyboard; sourceTree = "<group>"; };
+		0BFA19362830082300E96042 /* ProfileLogOutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLogOutTableViewCell.swift; sourceTree = "<group>"; };
+		0BFA19372830082300E96042 /* ProfileLogOutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileLogOutTableViewCell.xib; sourceTree = "<group>"; };
+		0BFA193B283021A800E96042 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0BFA19442830310100E96042 /* UserDefaultsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExtensions.swift; sourceTree = "<group>"; };
+		0BFC22DD2818240A0078124D /* EditPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPasswordViewController.swift; sourceTree = "<group>"; };
+		0BFC22DF281824140078124D /* EditPasswordViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditPasswordViewController.storyboard; sourceTree = "<group>"; };
+		0BFC22E228183FB90078124D /* EditRankViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditRankViewController.storyboard; sourceTree = "<group>"; };
+		0BFC22E4281840110078124D /* EditRankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRankViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B5AEEB227FB470400F7408E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5AEECB27FB470600F7408E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5AEED527FB470600F7408E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B03CDB128329D7700017878 /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B03CDB528329DAA00017878 /* SignInViewController.storyboard */,
+				0B03CDB328329DA100017878 /* SignInViewController.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		0B03CDB228329D8900017878 /* CreateAccountViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B03CDB728329DC000017878 /* CreateAccountViewController.storyboard */,
+				0B03CDB928329DC900017878 /* CreateAccountViewController.swift */,
+			);
+			path = CreateAccountViewController;
+			sourceTree = "<group>";
+		};
+		0B0729AD28047F9800181203 /* CategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B0729AE28047FAC00181203 /* CategoryViewController.storyboard */,
+				0B0729B02804800D00181203 /* CategoryViewController.swift */,
+			);
+			path = CategoryViewController;
+			sourceTree = "<group>";
+		};
+		0B0E6DFC2800B067004595CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E6DFD2800B077004595CE /* UIViewExtensions.swift */,
+				0B323B322801D41A00EC200A /* UIButtonExtensions.swift */,
+				0B03CDBB2832A85400017878 /* UITextFieldExtensions.swift */,
+				0BFA19442830310100E96042 /* UserDefaultsExtensions.swift */,
+				0B03CDBD2832A98800017878 /* UIViewControllerExtensions.swift */,
+				0BE25A4E28149E3800E0906A /* EntryExtensions.swift */,
+				0BEF756D2814B0D2008CDEEC /* DateExtensions.swift */,
+				0BF5035D28163B480007891C /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0B2B829227FC900800A7CFF6 /* SyllabusViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B829327FC901800A7CFF6 /* SyllabusViewController.storyboard */,
+				0BFA193B283021A800E96042 /* LoginViewController.swift */,
+				0B2B829527FC904000A7CFF6 /* SyllabusViewController.swift */,
+				0B0E6DFA2800AE54004595CE /* SyllabusTableViewCell.swift */,
+				0B2E13B9282D76C300D9036F /* TabBarViewController.swift */,
+				0B03CDB128329D7700017878 /* SignInViewController */,
+				0B03CDB228329D8900017878 /* CreateAccountViewController */,
+				0B2E13B4282D71C200D9036F /* HelpScreenViewController */,
+			);
+			path = SyllabusViewController;
+			sourceTree = "<group>";
+		};
+		0B2E13B4282D71C200D9036F /* HelpScreenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E13B7282D71E500D9036F /* HelpScreenViewController.storyboard */,
+				0B2E13B5282D71DB00D9036F /* HelpScreenViewController.swift */,
+			);
+			path = HelpScreenViewController;
+			sourceTree = "<group>";
+		};
+		0B4CFE382816E94900E052F0 /* ProfileTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0BFA1935283007E700E96042 /* ProfileLogOutTableViewCell */,
+				0BF5035728161F8A0007891C /* ProfileNameTableViewCell */,
+				0BF5035828161F9C0007891C /* ProfileGenericTableViewCell */,
+			);
+			path = ProfileTableViewCells;
+			sourceTree = "<group>";
+		};
+		0B4CFE392816E95D00E052F0 /* ProfileEditViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0BFC22E128183F780078124D /* EditRankViewController */,
+				0BFC22DC281823DB0078124D /* EditPasswordViewController */,
+				0B4CFE3A2816E96D00E052F0 /* EditNameViewController */,
+			);
+			path = ProfileEditViewControllers;
+			sourceTree = "<group>";
+		};
+		0B4CFE3A2816E96D00E052F0 /* EditNameViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B4CFE3B2816E98500E052F0 /* EditNameViewController.storyboard */,
+				0B4CFE3D2816E99800E052F0 /* EditNameViewController.swift */,
+			);
+			path = EditNameViewController;
+			sourceTree = "<group>";
+		};
+		0B5AEEAC27FB470400F7408E = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEB727FB470400F7408E /* World Tang Soo Do Association */,
+				0B5AEED127FB470600F7408E /* World Tang Soo Do AssociationTests */,
+				0B5AEEDB27FB470600F7408E /* World Tang Soo Do AssociationUITests */,
+				0B5AEEB627FB470400F7408E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B5AEEB627FB470400F7408E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEB527FB470400F7408E /* World Tang Soo Do Association.app */,
+				0B5AEECE27FB470600F7408E /* World Tang Soo Do AssociationTests.xctest */,
+				0B5AEED827FB470600F7408E /* World Tang Soo Do AssociationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B5AEEB727FB470400F7408E /* World Tang Soo Do Association */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEF527FB4E7C00F7408E /* Resources */,
+				0B5AEEED27FB492900F7408E /* Model */,
+				0B5AEEF627FB4EB100F7408E /* Views */,
+				0B5AEEB827FB470400F7408E /* AppDelegate.swift */,
+				0B5AEEBA27FB470400F7408E /* SceneDelegate.swift */,
+				0B5AEEC627FB470600F7408E /* LaunchScreen.storyboard */,
+				0B5AEEC927FB470600F7408E /* Info.plist */,
+			);
+			path = "World Tang Soo Do Association";
+			sourceTree = "<group>";
+		};
+		0B5AEED127FB470600F7408E /* World Tang Soo Do AssociationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEED227FB470600F7408E /* World_Tang_Soo_Do_AssociationTests.swift */,
+			);
+			path = "World Tang Soo Do AssociationTests";
+			sourceTree = "<group>";
+		};
+		0B5AEEDB27FB470600F7408E /* World Tang Soo Do AssociationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEDC27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITests.swift */,
+				0B5AEEDE27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITestsLaunchTests.swift */,
+			);
+			path = "World Tang Soo Do AssociationUITests";
+			sourceTree = "<group>";
+		};
+		0B5AEEED27FB492900F7408E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B829927FC999400A7CFF6 /* Data.swift */,
+				0B5AEEC127FB470400F7408E /* DataModel.xcdatamodeld */,
+				0B5AEEF227FB4AE700F7408E /* Syllabus (Unused) */,
+				0B5AEEF327FB4AFC00F7408E /* Category */,
+				0B5AEEF427FB4B2400F7408E /* Technique */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B5AEEF227FB4AE700F7408E /* Syllabus (Unused) */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEEB27FB47B200F7408E /* SyllabusModel.swift */,
+				0B2B829727FC98D400A7CFF6 /* SyllabusFunctions.swift */,
+			);
+			path = "Syllabus (Unused)";
+			sourceTree = "<group>";
+		};
+		0B5AEEF327FB4AFC00F7408E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEEE27FB49E800F7408E /* CategoryModel.swift */,
+				0BC2F74C27FF086D00A5B204 /* CategoryFunctions.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0B5AEEF427FB4B2400F7408E /* Technique */ = {
+			isa = PBXGroup;
+			children = (
+				0B5AEEF027FB4A5500F7408E /* TechniqueModel.swift */,
+			);
+			path = Technique;
+			sourceTree = "<group>";
+		};
+		0B5AEEF527FB4E7C00F7408E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B0E6DFC2800B067004595CE /* Extensions */,
+				0B323B342801D44F00EC200A /* Theme.swift */,
+				0B323B362801D47B00EC200A /* Colors.xcassets */,
+				0B5AEEC427FB470600F7408E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B5AEEF627FB4EB100F7408E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B2B829227FC900800A7CFF6 /* SyllabusViewController */,
+				0B0729AD28047F9800181203 /* CategoryViewController */,
+				0BB1CB582805CB41004F3F92 /* JournalViewController */,
+				0BFA1930282FCD3500E96042 /* NotesViewController */,
+				0BF5034E281616870007891C /* ProfileViewController */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B78DC3F2805D51000542A56 /* AddEntryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0B78DC402805D52900542A56 /* AddEntryViewController.storyboard */,
+				0B78DC422805D67D00542A56 /* AddEntryViewController.swift */,
+			);
+			path = AddEntryViewController;
+			sourceTree = "<group>";
+		};
+		0BB1CB582805CB41004F3F92 /* JournalViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BB1CB592805CB9F004F3F92 /* JournalViewController.storyboard */,
+				0BB1CB5B2805CBCD004F3F92 /* JournalViewController.swift */,
+				0BB1CB5D2805CC91004F3F92 /* JournalTableViewCell.swift */,
+				0B78DC3F2805D51000542A56 /* AddEntryViewController */,
+			);
+			path = JournalViewController;
+			sourceTree = "<group>";
+		};
+		0BF5034E281616870007891C /* ProfileViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5034F281616A70007891C /* ProfileViewController.storyboard */,
+				0BF50351281616B10007891C /* ProfileViewController.swift */,
+				0B4CFE392816E95D00E052F0 /* ProfileEditViewControllers */,
+				0B4CFE382816E94900E052F0 /* ProfileTableViewCells */,
+			);
+			path = ProfileViewController;
+			sourceTree = "<group>";
+		};
+		0BF5035728161F8A0007891C /* ProfileNameTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5035428161C260007891C /* ProfileTableViewCell.xib */,
+				0BF5035328161C260007891C /* ProfileNameTableViewCell.swift */,
+			);
+			path = ProfileNameTableViewCell;
+			sourceTree = "<group>";
+		};
+		0BF5035828161F9C0007891C /* ProfileGenericTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5035A28161FB70007891C /* ProfileGenericTableViewCell.xib */,
+				0BF5035928161FB70007891C /* ProfileGenericTableViewCell.swift */,
+			);
+			path = ProfileGenericTableViewCell;
+			sourceTree = "<group>";
+		};
+		0BFA1930282FCD3500E96042 /* NotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BFA1933282FCD6C00E96042 /* NotesViewController.storyboard */,
+				0BFA1931282FCD6300E96042 /* NotesViewController.swift */,
+			);
+			path = NotesViewController;
+			sourceTree = "<group>";
+		};
+		0BFA1935283007E700E96042 /* ProfileLogOutTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0BFA19372830082300E96042 /* ProfileLogOutTableViewCell.xib */,
+				0BFA19362830082300E96042 /* ProfileLogOutTableViewCell.swift */,
+			);
+			path = ProfileLogOutTableViewCell;
+			sourceTree = "<group>";
+		};
+		0BFC22DC281823DB0078124D /* EditPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BFC22DF281824140078124D /* EditPasswordViewController.storyboard */,
+				0BFC22DD2818240A0078124D /* EditPasswordViewController.swift */,
+			);
+			path = EditPasswordViewController;
+			sourceTree = "<group>";
+		};
+		0BFC22E128183F780078124D /* EditRankViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BFC22E228183FB90078124D /* EditRankViewController.storyboard */,
+				0BFC22E4281840110078124D /* EditRankViewController.swift */,
+			);
+			path = EditRankViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B5AEEB427FB470400F7408E /* World Tang Soo Do Association */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5AEEE227FB470600F7408E /* Build configuration list for PBXNativeTarget "World Tang Soo Do Association" */;
+			buildPhases = (
+				0B5AEEB127FB470400F7408E /* Sources */,
+				0B5AEEB227FB470400F7408E /* Frameworks */,
+				0B5AEEB327FB470400F7408E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "World Tang Soo Do Association";
+			productName = "World Tang Soo Do Association";
+			productReference = 0B5AEEB527FB470400F7408E /* World Tang Soo Do Association.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B5AEECD27FB470600F7408E /* World Tang Soo Do AssociationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5AEEE527FB470600F7408E /* Build configuration list for PBXNativeTarget "World Tang Soo Do AssociationTests" */;
+			buildPhases = (
+				0B5AEECA27FB470600F7408E /* Sources */,
+				0B5AEECB27FB470600F7408E /* Frameworks */,
+				0B5AEECC27FB470600F7408E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5AEED027FB470600F7408E /* PBXTargetDependency */,
+			);
+			name = "World Tang Soo Do AssociationTests";
+			productName = "World Tang Soo Do AssociationTests";
+			productReference = 0B5AEECE27FB470600F7408E /* World Tang Soo Do AssociationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B5AEED727FB470600F7408E /* World Tang Soo Do AssociationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5AEEE827FB470600F7408E /* Build configuration list for PBXNativeTarget "World Tang Soo Do AssociationUITests" */;
+			buildPhases = (
+				0B5AEED427FB470600F7408E /* Sources */,
+				0B5AEED527FB470600F7408E /* Frameworks */,
+				0B5AEED627FB470600F7408E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B5AEEDA27FB470600F7408E /* PBXTargetDependency */,
+			);
+			name = "World Tang Soo Do AssociationUITests";
+			productName = "World Tang Soo Do AssociationUITests";
+			productReference = 0B5AEED827FB470600F7408E /* World Tang Soo Do AssociationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B5AEEAD27FB470400F7408E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0B5AEEB427FB470400F7408E = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					0B5AEECD27FB470600F7408E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0B5AEEB427FB470400F7408E;
+					};
+					0B5AEED727FB470600F7408E = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 0B5AEEB427FB470400F7408E;
+					};
+				};
+			};
+			buildConfigurationList = 0B5AEEB027FB470400F7408E /* Build configuration list for PBXProject "World Tang Soo Do Association" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B5AEEAC27FB470400F7408E;
+			productRefGroup = 0B5AEEB627FB470400F7408E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B5AEEB427FB470400F7408E /* World Tang Soo Do Association */,
+				0B5AEECD27FB470600F7408E /* World Tang Soo Do AssociationTests */,
+				0B5AEED727FB470600F7408E /* World Tang Soo Do AssociationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B5AEEB327FB470400F7408E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFC22E0281824140078124D /* EditPasswordViewController.storyboard in Resources */,
+				0BB1CB5A2805CB9F004F3F92 /* JournalViewController.storyboard in Resources */,
+				0BF5035C28161FB70007891C /* ProfileGenericTableViewCell.xib in Resources */,
+				0B5AEEC827FB470600F7408E /* LaunchScreen.storyboard in Resources */,
+				0B323B372801D47B00EC200A /* Colors.xcassets in Resources */,
+				0B78DC412805D52900542A56 /* AddEntryViewController.storyboard in Resources */,
+				0BFA1934282FCD6C00E96042 /* NotesViewController.storyboard in Resources */,
+				0BFC22E328183FB90078124D /* EditRankViewController.storyboard in Resources */,
+				0B5AEEC527FB470600F7408E /* Assets.xcassets in Resources */,
+				0B03CDB828329DC000017878 /* CreateAccountViewController.storyboard in Resources */,
+				0B2E13B8282D71E500D9036F /* HelpScreenViewController.storyboard in Resources */,
+				0BF5035628161C260007891C /* ProfileTableViewCell.xib in Resources */,
+				0B03CDB628329DAA00017878 /* SignInViewController.storyboard in Resources */,
+				0B0729AF28047FAC00181203 /* CategoryViewController.storyboard in Resources */,
+				0B4CFE3C2816E98500E052F0 /* EditNameViewController.storyboard in Resources */,
+				0BFA19392830082300E96042 /* ProfileLogOutTableViewCell.xib in Resources */,
+				0BF50350281616A70007891C /* ProfileViewController.storyboard in Resources */,
+				0B2B829427FC901800A7CFF6 /* SyllabusViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5AEECC27FB470600F7408E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5AEED627FB470600F7408E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5AEEB127FB470400F7408E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B03CDBA28329DC900017878 /* CreateAccountViewController.swift in Sources */,
+				0BFC22DE2818240A0078124D /* EditPasswordViewController.swift in Sources */,
+				0B2E13B6282D71DB00D9036F /* HelpScreenViewController.swift in Sources */,
+				0BB1CB5C2805CBCD004F3F92 /* JournalViewController.swift in Sources */,
+				0BEF756E2814B0D2008CDEEC /* DateExtensions.swift in Sources */,
+				0B03CDBE2832A98800017878 /* UIViewControllerExtensions.swift in Sources */,
+				0B5AEEC327FB470400F7408E /* DataModel.xcdatamodeld in Sources */,
+				0BF5035528161C260007891C /* ProfileNameTableViewCell.swift in Sources */,
+				0B2B829627FC904000A7CFF6 /* SyllabusViewController.swift in Sources */,
+				0B2B829827FC98D400A7CFF6 /* SyllabusFunctions.swift in Sources */,
+				0BC2F74D27FF086D00A5B204 /* CategoryFunctions.swift in Sources */,
+				0BE25A4F28149E3800E0906A /* EntryExtensions.swift in Sources */,
+				0B5AEEF127FB4A5500F7408E /* TechniqueModel.swift in Sources */,
+				0B4CFE3E2816E99800E052F0 /* EditNameViewController.swift in Sources */,
+				0BFA193C283021A800E96042 /* LoginViewController.swift in Sources */,
+				0B5AEEEF27FB49E800F7408E /* CategoryModel.swift in Sources */,
+				0B5AEEB927FB470400F7408E /* AppDelegate.swift in Sources */,
+				0B323B332801D41A00EC200A /* UIButtonExtensions.swift in Sources */,
+				0BFC22E5281840110078124D /* EditRankViewController.swift in Sources */,
+				0B5AEEEC27FB47B200F7408E /* SyllabusModel.swift in Sources */,
+				0B0E6DFB2800AE54004595CE /* SyllabusTableViewCell.swift in Sources */,
+				0B2E13BA282D76C300D9036F /* TabBarViewController.swift in Sources */,
+				0B03CDBC2832A85400017878 /* UITextFieldExtensions.swift in Sources */,
+				0B0729B12804800D00181203 /* CategoryViewController.swift in Sources */,
+				0BFA19382830082300E96042 /* ProfileLogOutTableViewCell.swift in Sources */,
+				0BF5035B28161FB70007891C /* ProfileGenericTableViewCell.swift in Sources */,
+				0BB1CB5E2805CC91004F3F92 /* JournalTableViewCell.swift in Sources */,
+				0B03CDB428329DA100017878 /* SignInViewController.swift in Sources */,
+				0B2B829A27FC999400A7CFF6 /* Data.swift in Sources */,
+				0B0E6DFE2800B077004595CE /* UIViewExtensions.swift in Sources */,
+				0B78DC432805D67D00542A56 /* AddEntryViewController.swift in Sources */,
+				0BFA19452830310100E96042 /* UserDefaultsExtensions.swift in Sources */,
+				0BF5035E28163B480007891C /* StringExtensions.swift in Sources */,
+				0BFA1932282FCD6300E96042 /* NotesViewController.swift in Sources */,
+				0BF50352281616B10007891C /* ProfileViewController.swift in Sources */,
+				0B5AEEBB27FB470400F7408E /* SceneDelegate.swift in Sources */,
+				0B323B352801D44F00EC200A /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5AEECA27FB470600F7408E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5AEED327FB470600F7408E /* World_Tang_Soo_Do_AssociationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5AEED427FB470600F7408E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5AEEDF27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITestsLaunchTests.swift in Sources */,
+				0B5AEEDD27FB470600F7408E /* World_Tang_Soo_Do_AssociationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B5AEED027FB470600F7408E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5AEEB427FB470400F7408E /* World Tang Soo Do Association */;
+			targetProxy = 0B5AEECF27FB470600F7408E /* PBXContainerItemProxy */;
+		};
+		0B5AEEDA27FB470600F7408E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5AEEB427FB470400F7408E /* World Tang Soo Do Association */;
+			targetProxy = 0B5AEED927FB470600F7408E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B5AEEC627FB470600F7408E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B5AEEC727FB470600F7408E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B5AEEE027FB470600F7408E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B5AEEE127FB470600F7408E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B5AEEE327FB470600F7408E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569X74J9DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "World Tang Soo Do Association/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SyllabusViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RebeccaChou.World-Tang-Soo-Do-Association";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0B5AEEE427FB470600F7408E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 569X74J9DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "World Tang Soo Do Association/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = SyllabusViewController;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RebeccaChou.World-Tang-Soo-Do-Association";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0B5AEEE627FB470600F7408E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RebeccaChou.World-Tang-Soo-Do-AssociationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/World Tang Soo Do Association.app/World Tang Soo Do Association";
+			};
+			name = Debug;
+		};
+		0B5AEEE727FB470600F7408E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RebeccaChou.World-Tang-Soo-Do-AssociationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/World Tang Soo Do Association.app/World Tang Soo Do Association";
+			};
+			name = Release;
+		};
+		0B5AEEE927FB470600F7408E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RebeccaChou.World-Tang-Soo-Do-AssociationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "World Tang Soo Do Association";
+			};
+			name = Debug;
+		};
+		0B5AEEEA27FB470600F7408E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RebeccaChou.World-Tang-Soo-Do-AssociationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "World Tang Soo Do Association";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B5AEEB027FB470400F7408E /* Build configuration list for PBXProject "World Tang Soo Do Association" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5AEEE027FB470600F7408E /* Debug */,
+				0B5AEEE127FB470600F7408E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5AEEE227FB470600F7408E /* Build configuration list for PBXNativeTarget "World Tang Soo Do Association" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5AEEE327FB470600F7408E /* Debug */,
+				0B5AEEE427FB470600F7408E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5AEEE527FB470600F7408E /* Build configuration list for PBXNativeTarget "World Tang Soo Do AssociationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5AEEE627FB470600F7408E /* Debug */,
+				0B5AEEE727FB470600F7408E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5AEEE827FB470600F7408E /* Build configuration list for PBXNativeTarget "World Tang Soo Do AssociationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5AEEE927FB470600F7408E /* Debug */,
+				0B5AEEEA27FB470600F7408E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0B5AEEC127FB470400F7408E /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B5AEEC227FB470400F7408E /* World_Tang_Soo_Do_Association.xcdatamodel */,
+			);
+			currentVersion = 0B5AEEC227FB470400F7408E /* World_Tang_Soo_Do_Association.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0B5AEEAD27FB470400F7408E /* Project object */;
+}
